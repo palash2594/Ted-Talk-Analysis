@@ -11,7 +11,6 @@ cur.execute(''' CREATE TABLE IF NOT EXISTS teddata
         languages INTEGER, main_speaker TEXT, publishdate INTEGER,
         ratings TEXT, tags TEXT, title TEXT, url TEXT, views INTEGER, comments INTEGER)''')
 
-
 def csv_dict_reader(file_obj):
     """
     Read a CSV file using csv.DictReader
