@@ -30,3 +30,4 @@ for val, key in templist[:10]:
     print(key, val)
 
 cur.close()
+
